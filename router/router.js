@@ -2,9 +2,11 @@ const router = require('express').Router();
 
 const { getAllTasks, createTask, updateTask, deleteSpecTask, getSpecTask } = require('../controllers/tasks')
 
-//get...
+//get...routess.
 
-router.get('/', getAllTasks)
+router.route('/').get(getAllTasks).post(createTask);
+
+router.route('/:id').get(getSpecTask).patch(updateTask).delete(deleteSpecTask)
 
 
 
