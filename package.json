@@ -4,7 +4,7 @@
   "description": "The_Taks_Manager_Nodejs_Express_MongoDb",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Ali Imran Adil",
