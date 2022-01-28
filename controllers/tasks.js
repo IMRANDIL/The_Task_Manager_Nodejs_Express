@@ -8,13 +8,13 @@ const getAllTasks = (req, res) => {
 //post...
 
 const createTask = (req, res) => {
-    res.send('create tasks')
+    res.json(req.body)
 }
 
 //get specific task...
 
 const getSpecTask = (req, res) => {
-    res.send('get single task')
+    res.json({ id: req.params.id })
 }
 
 
