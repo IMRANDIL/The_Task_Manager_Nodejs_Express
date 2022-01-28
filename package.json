@@ -1,0 +1,17 @@
+{
+  "name": "the_task_manager_nodejs_express",
+  "version": "1.0.0",
+  "description": "The_Taks_Manager_Nodejs_Express_MongoDb",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Ali Imran Adil",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  }
+}
